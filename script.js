@@ -26,4 +26,6 @@ function login() {
   }
   document.getElementById("login-email").value = "";
   document.getElementById("login-pass").value = "";
+  
 }
+
