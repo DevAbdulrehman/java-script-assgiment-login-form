@@ -6,6 +6,7 @@ function register() {
     email: document.getElementById("email").value,
     pass: document.getElementById("pass").value,
   });
+  window.alert("succesfully registered")
   console.log(users);
   document.getElementById("name").value = "";
   document.getElementById("email").value = "";
