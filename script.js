@@ -24,6 +24,9 @@ function login() {
         window.alert("Please enter correct email or password");
       }
     }
+    else{
+      window.alert("Please enter correct email or password")
+    }
   }
   document.getElementById("login-email").value = "";
   document.getElementById("login-pass").value = "";
